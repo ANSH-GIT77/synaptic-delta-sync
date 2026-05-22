@@ -8,7 +8,7 @@ In modern AI environments, updating models often requires a full restart, leadin
 
 ## 🏗️ Architecture Overview
 
-The SDS pipeline is designed for modularity, speed, and integrity. The architecture separates weight extraction, cryptographic validation, and device-specific injection into distinct, highly optimized layers.
+The SDS pipeline is designed for modularity, speed, and integrity.
 
 ```mermaid
 graph TD
