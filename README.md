@@ -13,23 +13,23 @@ The SDS pipeline is designed for modularity, speed, and integrity. The architect
 
 ```mermaid
 graph TD
-    subgraph "Phase 1: Preparation"
-    A[Live Model] -->|Extract| B[Delta Engine]
-    B -->|Sparse Diff| C[Serialized .sds Patch]
-    end
+subgraph "Phase 1: Preparation"
+A[Live Model] -->|Extract| B[Delta Engine]
+B -->|Sparse Diff| C[Serialized .sds Patch]
+end
 
-    subgraph "Phase 2: Injection"
-    C -->|Verify| D[Patch Validator]
-    D -->|Hash Check| E[Atomic Injector]
-    end
+subgraph "Phase 2: Injection"
+C -->|Verify| D[Patch Validator]
+D -->|Hash Check| E[Atomic Injector]
+end
 
-    subgraph "Phase 3: Execution"
-    E -->|Route| F{Device Selection}
-    F -->|CPU| G[Atomic Injection]
-    F -->|GPU| H[Async CUDA Stream]
-    G --> I[Updated Model]
-    H --> I
-    end
+subgraph "Phase 3: Execution"
+E -->|Route| F{Device Selection}
+F -->|CPU| G[Atomic Injection]
+F -->|GPU| H[Async CUDA Stream]
+G --> I[Updated Model]
+H --> I
+end
 
 ```
 
