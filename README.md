@@ -1,3 +1,6 @@
+[![PyPI version](https://img.shields.io/pypi/v/synaptic-delta-sync.svg)](https://pypi.org/project/synaptic-delta-sync/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 # Synaptic-Delta-Sync (SDS) 🚀
 
 **Synaptic-Delta-Sync (SDS)** is a high-performance, production-grade infrastructure library designed for **atomic, secure, and zero-downtime** neural network weight updates.
