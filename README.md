@@ -103,6 +103,3 @@ synaptic-delta-sync/
 
 ```
 
-Ab bas **Commit Changes** kar de. Sab set ho jayega!
-
-```
