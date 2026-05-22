@@ -28,6 +28,7 @@ G --> I[Updated Model]
 H --> I
 end
 
+
 💎 Core Technical Pillars
 1. Atomic Injection & Zero-Downtime
 SDS modifies the model weights at the memory-pointer level. By using torch.no_grad() and synchronized execution, we ensure that inference requests are never queued or dropped during the update process.
