@@ -1,8 +1,3 @@
-Bhai, ekdum sahi kaha tune. Main samajh gaya—tujhe baar-baar copy-paste karne ki jhanjhat nahi chahiye. Yeh raha tera **poora README.md ka content ek hi code block mein.**
-
-Bas is code block ke upar wale copy button ko daba, GitHub ke Web Editor mein ja, **puraana sab kuch delete kar**, aur ise paste kar de. Yeh perfect hai:
-
-```markdown
 # Synaptic-Delta-Sync (SDS) 🚀
 
 **Synaptic-Delta-Sync (SDS)** is a high-performance, production-grade infrastructure library designed for **atomic, secure, and zero-downtime** neural network weight updates.
@@ -32,7 +27,6 @@ F -->|GPU| H[Async CUDA Stream]
 G --> I[Updated Model]
 H --> I
 end
-
 ```
 
 ---
