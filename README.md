@@ -100,6 +100,3 @@ synaptic-delta-sync/
 **Ansh Nimbalkar** | *AI Infrastructure Engineer*
 
 [GitHub Profile](https://github.com/ANSH-GIT77)
-
-```
-
