@@ -8,7 +8,7 @@ In modern AI environments, updating models often requires a full restart, leadin
 
 ## 🏗️ Architecture Overview
 
-The SDS pipeline is designed for modularity, speed, and integrity. The architecture separates weight extraction, cryptographic validation, and device-specific injection into distinct, highly optimized layers.
+The SDS pipeline is designed for modularity, speed, and integrity.
 
 ```mermaid
 graph TD
@@ -29,7 +29,6 @@ graph TD
     G --> I[Updated Model]
     H --> I
     end
-
 💎 Core Technical Pillars
 1. Atomic Injection & Zero-Downtime
 SDS modifies the model weights at the memory-pointer level. By using torch.no_grad() and synchronized execution, we ensure that inference requests are never queued or dropped during the update process.
@@ -91,3 +90,4 @@ AI Infrastructure Engineer
 GitHub Profile | View Repository
 
 Built for the future of AI Infrastructure.
+
