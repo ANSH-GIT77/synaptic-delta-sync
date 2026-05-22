@@ -46,8 +46,10 @@ end
 git clone [https://github.com/ANSH-GIT77/synaptic-delta-sync.git](https://github.com/ANSH-GIT77/synaptic-delta-sync.git)
 cd synaptic-delta-sync
 
-Basic Usage
-Python
+---
+
+### Basic Usage
+```Python
 from sds.core.injection import AtomicInjector
 from sds.protocol.serializer import load_patch
 
