@@ -28,6 +28,7 @@ G --> I[Updated Model]
 H --> I
 end
 ```
+---
 
 💎 Core Technical Pillars
 1. Atomic Injection & Zero-Downtime
@@ -51,7 +52,7 @@ Installation
 Clone the repository to your local workspace:
 
 Bash
-git clone [https://github.com/ANSH-GIT77/synaptic-delta-sync.git](https://github.com/ANSH-GIT77/synaptic-delta-sync.git)
+git clone https://github.com/ANSH-GIT77/synaptic-delta-sync.git
 cd synaptic-delta-sync
 Basic Usage
 The AtomicInjector class handles all the heavy lifting automatically:
@@ -84,7 +85,6 @@ Next Milestone: Distributed Patching over networked RPC and multi-GPU tensor sha
 
 🤝 Author
 Ansh Nimbalkar
-
 AI Infrastructure Engineer
 
 GitHub Profile | View Repository
