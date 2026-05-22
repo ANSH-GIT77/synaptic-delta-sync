@@ -1,6 +1,11 @@
+Bhai, ekdum sahi kaha tune. Main samajh gaya—tujhe baar-baar copy-paste karne ki jhanjhat nahi chahiye. Yeh raha tera **poora README.md ka content ek hi code block mein.**
+
+Bas is code block ke upar wale copy button ko daba, GitHub ke Web Editor mein ja, **puraana sab kuch delete kar**, aur ise paste kar de. Yeh perfect hai:
+
+```markdown
 # Synaptic-Delta-Sync (SDS) 🚀
 
-**Synaptic-Delta-Sync (SDS)** is a high-performance, production-grade infrastructure library designed for **atomic, secure, and zero-downtime** neural network weight updates. 
+**Synaptic-Delta-Sync (SDS)** is a high-performance, production-grade infrastructure library designed for **atomic, secure, and zero-downtime** neural network weight updates.
 
 In modern AI environments, updating models often requires a full restart, leading to service disruption. SDS bridges this gap by enabling **hot-swapping of weights** directly into live inference engines without stopping the process.
 
@@ -27,7 +32,9 @@ F -->|GPU| H[Async CUDA Stream]
 G --> I[Updated Model]
 H --> I
 end
+
 ```
+
 ---
 
 ## 💎 Core Technical Pillars
@@ -42,14 +49,20 @@ end
 ## 📦 Quick Start
 
 ### Installation
+
+Clone the repository to your local workspace:
+
 ```bash
 git clone [https://github.com/ANSH-GIT77/synaptic-delta-sync.git](https://github.com/ANSH-GIT77/synaptic-delta-sync.git)
 cd synaptic-delta-sync
 
----
+```
 
 ### Basic Usage
-```Python
+
+The `AtomicInjector` class handles all the heavy lifting automatically:
+
+```python
 from sds.core.injection import AtomicInjector
 from sds.protocol.serializer import load_patch
 
@@ -61,8 +74,14 @@ delta, metadata, patch_hash = load_patch("updates.sds")
 
 # 3. Apply patch
 injector.apply_patch(delta, patch_hash=patch_hash)
-📁 Project Structure
-Plaintext
+
+```
+
+---
+
+## 📁 Project Structure
+
+```text
 synaptic-delta-sync/
 ├── sds/
 │   ├── core/           # Engine Logic
@@ -70,12 +89,26 @@ synaptic-delta-sync/
 │   └── protocol/       # Serialization
 ├── examples/           # Tests
 └── pyproject.toml      # Config
-📈 Roadmap
-v0.1.0: Core Engine & Security Validator.
 
-Next: Distributed Patching (RPC) & Multi-GPU sharding.
+```
 
-🤝 Author
-Ansh Nimbalkar | AI Infrastructure Engineer
+---
 
+## 📈 Roadmap
 
+* **v0.1.0**: Core Engine & Security Validator.
+* **Next**: Distributed Patching (RPC) & Multi-GPU sharding.
+
+---
+
+## 🤝 Author
+
+**Ansh Nimbalkar** | *AI Infrastructure Engineer*
+
+[GitHub Profile](https://github.com/ANSH-GIT77)
+
+```
+
+Ab bas **Commit Changes** kar de. Sab set ho jayega!
+
+```
